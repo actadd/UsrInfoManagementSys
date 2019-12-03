@@ -15,6 +15,13 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
 
+/**
+ * @ClassName LoginServlet
+ * @Description 登录
+ * @Author Actadd
+ * @Date 12:09 2019/12/3
+ * @Version 1.0
+ */
 @WebServlet("/loginServlet")
 public class LoginServlet extends HttpServlet {
     @Override
